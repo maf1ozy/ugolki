@@ -1,12 +1,12 @@
 ﻿  Source.cpp
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(81,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(81,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(85,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(85,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(89,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(89,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(94,32): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
-Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(95,32): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(86,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(86,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(90,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(90,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(94,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(94,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(99,35): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+Z:\repos\ugolkiGame\ugolkiGame\Source.cpp(100,35): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
 Z:\repos\ugolkiGame\ugolkiGame\Conditions.h(128): warning C4715: Conditions::whitesWin: значение возвращается не при всех путях выполнения
 Z:\repos\ugolkiGame\ugolkiGame\Conditions.h(133): warning C4715: Conditions::blacksWin: значение возвращается не при всех путях выполнения
   ugolkiGame.vcxproj -> Z:\repos\ugolkiGame\Debug\ugolkiGame.exe
