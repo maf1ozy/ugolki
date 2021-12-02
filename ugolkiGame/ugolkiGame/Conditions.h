@@ -8,14 +8,14 @@ public:
 	bool isOutOfBorders;
 	int tempX, tempY, currentImaginaryCell;
 	int tempColor;
-	int clickOnFigure(int x, int y, int cell[8][8],int cell_imaginary[8][8]) {
+	int clickOnFigure(int x, int y, int cell[8][8], int cell_imaginary[8][8]) {
 		tempColor = cell[x][y];
 		tempX = x;
 		tempY = y;
 		currentImaginaryCell = cell_imaginary[x][y];
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
-				if (cell[i][j] == 3) cell[i][j] = 2;//убираю кресты при клике на другую пешку
+				if (cell[i][j] == 3) cell[i][j] = 2;
 			}
 		}
 		if ((cell[x + 1][y] == 2) && (cell[x][y + 1] == 2) && (cell[x - 1][y] == 2) && (cell[x][y - 1] == 2)) {
@@ -95,12 +95,12 @@ public:
 		}
 		return cell[x][y];
 	}
-	int clickOnSpot(int cell[8][8],int x, int y) {
+	int clickOnSpot(int cell[8][8], int x, int y) {
 		cell[x][y] = tempColor;
 		cell[tempX][tempY] = 2;
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
-				if (cell[i][j] == 3) cell[i][j] = 2;//убираю кресты после нажатия
+				if (cell[i][j] == 3) cell[i][j] = 2;
 			}
 		}
 		return cell[x][y];
@@ -108,7 +108,7 @@ public:
 	int cancelSpots(int x, int y, int cell[8][8]) {
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
-				if (cell[i][j] == 3) cell[i][j] = 2;//убираю кресты при клике на пустую клетку
+				if (cell[i][j] == 3) cell[i][j] = 2;
 			}
 		}
 		return cell[x][y];
